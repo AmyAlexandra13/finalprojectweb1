@@ -47,20 +47,21 @@ html
     float: left;
 }
 
-li a{
+.mainnav li a{
     text-decoration: none;
    padding: 0.3rem;
    display: inline;
    color: black;
 }
 
-li a:hover{
+.mainnav li a:hover{
     background: rgb(255, 0, 255);;
     color: white;
 }
 
 
-.firstinfo{
+/* the container */
+.firstinfo{ 
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -89,3 +90,57 @@ width: 100%;
 }
 
 
+footer
+{
+  
+    background-color: #fdeaf2;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+ 
+    
+
+}
+
+
+#footerh1{
+    font-family: 'Freehand', sans-serif;
+    font-size: 450%;
+    color: rgb(255, 0, 255);
+    text-decoration: none;
+    padding: 10 10 10 10;
+}
+
+.footercontainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.socialmedias
+{
+  padding-left: 50%;
+  
+}
+.socialmedias ul{
+   list-style: none;
+   font-family: 'Patrick Hand';
+    font-size: 1.5rem;
+}
+.socialmedias  li a{
+    text-decoration: none;
+    padding: 0.3rem;
+    display: inline;
+    color: black;
+}
+
+.policy ul
+{
+       list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.infodev{
+    color: blue;
+}
