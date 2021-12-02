@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Freehand&family=Patrick+Hand&family=Shrikhand&display=swap');
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 /*/
 In this part Iam using google fonts, I uploaded different fonts
-=======
-
-/*/
-In this part Iam using google fonts, I uploaded 3 different fonts
->>>>>>> 6631996e405864174d84df14320f962f972bd2d3
 */
 html
 {
@@ -66,16 +60,11 @@ html
 }
 
 
-<<<<<<< HEAD
 /* the flex container */
-=======
-/* the container */
->>>>>>> 6631996e405864174d84df14320f962f972bd2d3
 .firstinfo{ 
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-<<<<<<< HEAD
 }
 
 .image1 img{
@@ -87,18 +76,6 @@ html
 
 
 
-=======
-    
-
-}
-
-.image1 img{
-flex:1 1 41rem;
-width: 100%;
- height:550px;
- 
-}
->>>>>>> 6631996e405864174d84df14320f962f972bd2d3
 
 .image1-text {
     color: rgb(255, 0, 255);
@@ -121,11 +98,7 @@ footer
     padding-top: 1%;
     padding-right: 2%;
     padding-left: 2%;
-<<<<<<< HEAD
     padding-bottom: 1%;
-=======
- 
->>>>>>> 6631996e405864174d84df14320f962f972bd2d3
     
 
 }
@@ -162,7 +135,6 @@ footer
     color: black;
 }
 
-<<<<<<< HEAD
 .aboutfooter{
     font-family: 'Roboto', sans-serif;
     color: black;
@@ -203,15 +175,3 @@ footer
     color: black;
    
 }
-=======
-.policy ul
-{
-       list-style-type: none;
-    display: inline-block;
-    text-align: center;
-}
-
-.infodev{
-    color: blue;
-}
->>>>>>> 6631996e405864174d84df14320f962f972bd2d3
