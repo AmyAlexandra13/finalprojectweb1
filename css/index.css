@@ -29,11 +29,6 @@ html
     
 }
 
-
-
-
-
-
 .topheader ul
 {  
     list-style: none;
@@ -63,12 +58,11 @@ html
 /* the flex container */
 .firstinfo{ 
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+   flex-direction: row;
 }
 
 .image1 img{
-    flex:1 1 41rem;
+    flex:1 1 41em;
     width: 100%;
      height:550px;
      
@@ -80,7 +74,7 @@ html
 .image1-text {
     color: rgb(255, 0, 255);
     font-family: 'Shrikhand', cursive;
-    flex-wrap: 1 1 41rem;
+   padding-top: 10em;
 }
 
 .image1-text > a{
@@ -94,11 +88,12 @@ html
 footer
 {
   
+  
     background-color: #fdeaf2;
     padding-top: 1%;
     padding-right: 2%;
     padding-left: 2%;
-    padding-bottom: 1%;
+    padding-bottom: 10%;
     
 
 }
@@ -113,6 +108,7 @@ footer
 }
 
 .footercontainer{
+  
     display: flex;
     flex-wrap: wrap;
 
@@ -175,3 +171,90 @@ footer
     color: black;
    
 }
+
+/* Responsive design  */
+
+/* This reference is for my laptop */
+@media (max-width:2048px) {
+    #containerbutton{
+        display: none;
+    }
+
+    
+ 
+   
+}
+
+
+/* This reference is from !pad pro */
+@media (max-width:1200px) 
+{
+    html
+    {
+        font-size: 150%;
+    }
+
+    #containerbutton{
+        display: none;
+    }
+   
+
+    .firstinfo{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image1{
+        height: 100%;
+        width: 60%;
+    }   
+
+
+}
+
+@media (max-width: 780px) {
+    #containerbutton{
+        display: none;
+    }
+
+    
+}
+
+
+/* This shows the burger button */
+@media (max-width: 820px) 
+{
+
+    html{
+        font-size: 90%;
+    }
+    .topheader{
+        padding-right: 15%;
+       
+    }
+
+    #bname{
+        font-size: 160%;
+    }
+   #containerbutton{
+       display: inline-block;
+       cursor: pointer;
+      
+     
+     
+   }
+
+
+  .mainnav{
+      display: none;
+  }
+
+  footer{
+      padding-bottom: 25%;
+  }
+
+
+}
+
+
+
