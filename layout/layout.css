@@ -85,10 +85,30 @@ html
 }
 
 
-footer
+.best-deals-container{
+    display: flex;
+    flex-direction: column
+
+}
+
+.letter
 {
-  
-  
+    padding: 30px;
+    background-image: linear-gradient(to right, rgba(223, 39, 39, 0), rgba(255, 0, 255));
+}
+
+.letter > h2{
+    font-family: 'Freehand', sans-serif;
+    text-align: center;
+    font-size: 300%;
+    color: black;
+    
+}
+
+
+
+footer
+{ 
     background-color: #fdeaf2;
     padding-top: 1%;
     padding-right: 2%;
